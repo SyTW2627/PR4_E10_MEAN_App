@@ -7,6 +7,8 @@ COPY package.json package-lock.json ./
 RUN npm install
 COPY . .
 
+# comentario basura 
+
 # Build the Angular application for production
 RUN npm run build --prod
 
